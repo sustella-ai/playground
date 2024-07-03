@@ -16,9 +16,9 @@ require("dotenv").config({
 const config: GatsbyConfig = {
   pathPrefix: `${process.env.PREFIX_PATH_VALUE}`,
   siteMetadata: {
-    title: `AutoGen Studio [Beta]`,
-    description: `Build Multi-Agent Apps`,
-    siteUrl: `http://tbd.place`,
+    title: `Sustella AI Studio [Beta]`,
+    description: `Playground for Multi-Agent Apps`,
+    siteUrl: `https://www.sustella.ai`,
   },
   flags: {
     LAZY_IMAGES: true,
